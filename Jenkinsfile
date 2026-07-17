@@ -22,7 +22,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/varadharaj12/yazhinicolours'
+                    url: 'https://github.com/varadharaj12/yazhinicolours.git'
             }
         }
 
